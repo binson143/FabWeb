@@ -1,0 +1,17 @@
+.pagination-container {
+  display: flex;
+  margin-top: 5px;
+}
+.page {
+  color: #ffffff;
+  background: #2196f3;
+  border: 1px solid #2196f3;
+  padding: 0.5rem .7rem;
+  border-radius: 3px;
+  margin-right: 2px;
+}
+.selected{
+  color: black;
+  background:white;
+  border: 1px solid black;
+}

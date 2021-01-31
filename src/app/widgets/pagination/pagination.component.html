@@ -1,0 +1,7 @@
+
+<div class="pagination-container">
+  <ng-container *ngFor="let item of [].constructor(pagination.totalPage); let i=index">
+    <button pButton type="button" label="Primary" (click)="onPaginationChange(i)" [ngClass]="{'selected':activePage===i}"
+    class="page">{{i+1}}</button>
+  </ng-container>
+</div>

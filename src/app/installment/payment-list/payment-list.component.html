@@ -1,0 +1,24 @@
+<div class="header">
+  <h4>Installment details</h4>
+  <h4>
+    <a class="link" routerLink="../">Back to home</a>
+  </h4>
+</div>
+<table id="data-table">
+  <tr>
+    <th>Id</th>
+    <th>Sender</th>
+    <th>Receiver</th>
+    <th>Total Amount</th>
+    <th>Paid Amount</th>
+  </tr>
+  <tr *ngFor="let installment of installments">
+    <td>
+      {{installment.id}}
+    </td>
+    <td>{{installment.sender}}</td>
+    <td>{{installment.receiver}}</td>
+    <td>{{installment.totalAmount}}</td>
+    <td>{{installment.paidAmount}}</td>
+  </tr>
+</table>
