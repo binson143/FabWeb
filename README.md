@@ -18,7 +18,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
    All the styles are written in `css`. No third party libraries used.
 
-## How about the backend logic
+##  About the backend logic
    
    As per the  description the technical requirement for backend technology is `Java`. but my strength is in .NET technologies . there is another repository contains all the backend logic written in .NET core 5.
     https://github.com/binson143/Fab-Api.git
