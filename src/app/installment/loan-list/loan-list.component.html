@@ -11,12 +11,14 @@
   </tr>
   <tr *ngFor="let loan of loans" >
     <td>
-      <a routerLink="../payments" class="link" [state]="loan.installments"> {{loan.id}}</a>
+      {{loan.id}}
     </td>
     <td>{{loan.sender}}</td>
     <td>{{loan.receiver}}</td>
     <td>{{loan.totalAmount}}</td>
-    <td>{{loan.totalPaidAmount}}</td>
+    <td>
+      <a routerLink="../payments" class="link" [state]="loan.installments"> {{loan.totalPaidAmount}}</a>
+     </td>
   </tr>
 </table>
 <app-pagination [pagination]="pagination" (paginationChanged)="onPaginationChange($event)"></app-pagination>
