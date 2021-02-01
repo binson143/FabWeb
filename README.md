@@ -21,7 +21,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## How about the backend logic
    
    As per the  description the technical requirement for backend technology is `Java`. but my strength is in .NET technologies . there is another repository contains all the backend logic written in .NET core 5.
-
+    https://github.com/binson143/Fab-Api.git
 
 ## SQL
 
@@ -29,13 +29,13 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
    Table structure
 
-   Parent.json
+   Parent
    =================================
 
     ID,Sender,Receiver,TotalAmount
    =================================
 
-Child.json
+Child
    =================================
 
     ID,ParentId,PaidAmount
